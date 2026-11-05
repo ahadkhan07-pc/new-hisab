@@ -1,0 +1,33 @@
+
+workflows:
+  my-daily-hisab:
+    name: My Daily Hisab APK
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+
+    environment:
+      node: 22
+
+    scripts:
+      - name: Install dependencies
+        script: |
+          rm -f package-lock.json
+          npm install --include=optional
+
+      - name: Build web app
+        script: npm run build
+
+      - name: Sync Android project
+        script: npx cap sync android
+
+      - name: Set Android SDK
+        script: echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/android/local.properties"
+
+      - name: Build Debug APK
+        script: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug
+
+    artifacts:
+      - android/app/build/outputs/**/*.apk
