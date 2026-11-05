@@ -1,0 +1,19 @@
+<resources>
+    <!-- Strictly NO GREEN, NO GRADIENTS as specified by design rules -->
+    <color name="luxury_black">#08060B</color>
+    <color name="luxury_surface">#120D1B</color>
+    <color name="luxury_surface_elevated">#1A1327</color>
+    <color name="luxury_border">#231936</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_magenta">#D946EF</color>
+    <color name="accent_purple">#8B5CF6</color>
+    <color name="accent_velvet">#7C3AED</color>
+    <color name="accent_orange">#F97316</color>
+    <color name="accent_deep_orange">#EA580C</color>
+    
+    <!-- Neutral text -->
+    <color name="text_primary">#EDEDED</color>
+    <color name="text_secondary">#948BA5</color>
+    <color name="text_muted">#665A7C</color>
+</resources>

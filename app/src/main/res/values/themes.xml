@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.MyDailyHisab" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/luxury_black</item>
+        <item name="android:navigationBarColor">@color/luxury_black</item>
+        <item name="android:windowBackground">@color/luxury_black</item>
+    </style>
+
+    <style name="Theme.MyDailyHisab.Splash" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/luxury_black</item>
+        <item name="android:navigationBarColor">@color/luxury_black</item>
+        <item name="android:windowBackground">@color/luxury_black</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">আমার দৈনিক হিসাব</string>
+    <string name="app_tagline">প্রিমিয়াম লাক্সারি দৈনিক হিসাব ও রুম লেজার</string>
+    <string name="home">নীড়পাতা</string>
+    <string name="transactions">লেনদেন</string>
+    <string name="reports">প্রতিবেদন</string>
+    <string name="categories">ক্যাটাগরি</string>
+    <string name="settings">সেটিংস</string>
+    <string name="total_balance">বর্তমান মোট স্থিতি</string>
+    <string name="income">আয়</string>
+    <string name="expense">ব্যয়</string>
+    <string name="savings">সঞ্চয়</string>
+    <string name="add_transaction">হিসাব যোগ করুন</string>
+    <string name="amount">টাকার পরিমাণ</string>
+    <string name="note">বিবরণ / নোট</string>
+    <string name="date">তারিখ</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="cancel">বাতিল</string>
+    <string name="delete">মুছুন</string>
+    <string name="backup_restore">ব্যাকআপ ও রিস্টোর</string>
+</resources>

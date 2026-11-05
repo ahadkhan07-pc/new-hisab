@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109344088352",
+    "project_id": "driven-delight-fsmzh",
+    "storage_bucket": "driven-delight-fsmzh.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109344088352:android:67ab5f14e21a8d05",
+        "android_client_info": {
+          "package_name": "com.mydailyhisab.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109344088352-aamcfkkbkpr1486mcmn8se6vh7669m23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBumT4ZZJ90gM49jt7PISpqV_HGw0fRC4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109344088352-aamcfkkbkpr1486mcmn8se6vh7669m23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
